@@ -1,0 +1,186 @@
+tap "anomalyco/tap", "https://github.com/anomalyco/homebrew-tap.git"
+tap "docker/tap"
+tap "helix-editor/helix"
+tap "heroku/brew"
+tap "homebrew/services"
+tap "moncho/dry"
+tap "mongodb/brew"
+tap "nubjs/tap"
+tap "oven-sh/bun"
+tap "samtay/tui"
+tap "teamookla/speedtest"
+# TIFF library and utilities
+brew "libtiff"
+# Java build tool
+brew "ant"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Yet another cross-platform graphical process/system monitor
+brew "bottom"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Powerful, enterprise-ready, open source web server with automatic HTTPS
+brew "caddy"
+# Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
+brew "clang-format"
+# Statistics utility to count lines of code
+brew "cloc"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
+# Cross-platform make
+brew "cmake"
+# Console Matrix
+brew "cmatrix"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Top-like interface for container metrics
+brew "ctop"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl", link: true
+# Terminal application to manage Docker and Docker Swarm
+brew "dry"
+# Modern, maintained replacement for ls
+brew "eza"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
+# LLVM's OpenMP runtime library
+brew "libomp"
+# GitHub command-line tool
+brew "gh"
+# Git extension for versioning large files
+brew "git-lfs"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
+# Improved top (interactive process viewer)
+brew "htop"
+# Run and Test HTTP Requests with plain text and curl
+brew "hurl"
+# CLI wrapper for basic network utilities on macOS - ip command
+brew "iproute2mac"
+# Featureful UNIX password cracker
+brew "john"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Lazier way to manage everything docker
+brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Cross-platform TUI database management tool
+brew "lazysql"
+# LLM inference in C/C++
+brew "llama.cpp"
+# Apple Silicon Monitor Top written in Go Lang
+brew "mactop"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Deep clean and optimize your Mac
+brew "mole"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
+# NCurses Disk Usage
+brew "ncdu"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Platform built on V8 to build network applications
+brew "node@14"
+# Manage multiple Node.js versions
+brew "nvm"
+# Interactive GPU process monitor
+brew "nvtop"
+# Terminal User Interface (TUI) to view & control docker containers
+brew "oxker"
+# High-performance and real-time metrics displaying HTTP benchmarking tool
+brew "plow"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Python interface to Tcl/Tk
+brew "python-tk@3.11"
+# Python interface to Tcl/Tk
+brew "python-tk@3.13"
+# File browser
+brew "ranger"
+# SOund eXchange: universal sound sample translator
+brew "sox"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# ISO/Edinburgh-style Prolog interpreter
+brew "swi-prolog"
+# Text interface for Git repositories
+brew "tig"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# Command-line client for WebSockets
+brew "websocat"
+# Internet file retriever
+brew "wget"
+# Show the current WiFi network password
+brew "wifi-password"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Fast TypeScript runtime and package manager that augments Node
+brew "nubjs/tap/nub", trusted: true
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
+vscode "biomejs.biome"
+vscode "github.vscode-github-actions"
+vscode "golang.go"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.js-debug-companion"
+vscode "ms-vscode.references-view"
+vscode "ms-vscode.remote-explorer"
+go "golang.org/x/tools/gopls"
+go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/bereilhp/via"
+uv "tinybird"
+npm "corepack"
+npm "grepguard"
+npm "novix"
+npm "querygit"
+npm "sandbar"
+npm "sshelf"
+npm "vercel"
