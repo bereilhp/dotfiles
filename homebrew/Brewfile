@@ -9,6 +9,8 @@ tap "nubjs/tap"
 tap "oven-sh/bun"
 tap "samtay/tui"
 tap "teamookla/speedtest"
+# Run your GitHub Actions locally
+brew "act"
 # TIFF library and utilities
 brew "libtiff"
 # Java build tool
@@ -179,6 +181,7 @@ go "github.com/bereilhp/via"
 uv "tinybird"
 npm "corepack"
 npm "grepguard"
+npm "nire"
 npm "novix"
 npm "querygit"
 npm "sandbar"
