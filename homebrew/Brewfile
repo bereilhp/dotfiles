@@ -103,6 +103,8 @@ brew "ncdu"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Cross-platform realtime network diagnostics TUI
+brew "netwatch"
 # Port scanning utility for large networks
 brew "nmap"
 # Interpreted, interactive, object-oriented programming language
