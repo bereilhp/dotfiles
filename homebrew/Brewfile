@@ -159,6 +159,8 @@ brew "yazi"
 brew "nubjs/tap/nub", trusted: true
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Coding agent with Devin Cloud integration
+cask "devin-cli"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Binary releases of VS Code without MS branding/telemetry/licensing
@@ -177,10 +179,13 @@ vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.js-debug-companion"
 vscode "ms-vscode.references-view"
 vscode "ms-vscode.remote-explorer"
+vscode "rust-lang.rust-analyzer"
+vscode "tauri-apps.tauri-vscode"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/bereilhp/via"
 uv "tinybird"
+npm "ananajs"
 npm "corepack"
 npm "grepguard"
 npm "nire"
