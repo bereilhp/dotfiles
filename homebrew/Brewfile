@@ -1,14 +1,14 @@
-tap "anomalyco/tap", "https://github.com/anomalyco/homebrew-tap.git"
-tap "docker/tap"
-tap "helix-editor/helix"
-tap "heroku/brew"
+tap "anomalyco/tap", "https://github.com/anomalyco/homebrew-tap.git", trusted: true
+tap "docker/tap", trusted: true
+tap "helix-editor/helix", trusted: true
+tap "heroku/brew", trusted: true
 tap "homebrew/services"
-tap "moncho/dry"
-tap "mongodb/brew"
+tap "moncho/dry", trusted: true
+tap "mongodb/brew", trusted: true
 tap "nubjs/tap"
-tap "oven-sh/bun"
-tap "samtay/tui"
-tap "teamookla/speedtest"
+tap "oven-sh/bun", trusted: true
+tap "samtay/tui", trusted: true
+tap "teamookla/speedtest", trusted: true
 # Run your GitHub Actions locally
 brew "act"
 # TIFF library and utilities
@@ -85,6 +85,8 @@ brew "lazygit"
 brew "lazysql"
 # LLM inference in C/C++
 brew "llama.cpp"
+# Sudoless performance monitoring for Apple Silicon processors
+brew "macmon"
 # Apple Silicon Monitor Top written in Go Lang
 brew "mactop"
 # Run a Kubernetes cluster locally
@@ -103,8 +105,6 @@ brew "ncdu"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Cross-platform realtime network diagnostics TUI
-brew "netwatch"
 # Port scanning utility for large networks
 brew "nmap"
 # Interpreted, interactive, object-oriented programming language
@@ -155,8 +155,16 @@ brew "wget"
 brew "wifi-password"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
 # Fast TypeScript runtime and package manager that augments Node
 brew "nubjs/tap/nub", trusted: true
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Tetris in your terminal
+brew "samtay/tui/tetris"
+# Ookla Speedtest
+brew "teamookla/speedtest/speedtest", link: false
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Coding agent with Devin Cloud integration
@@ -185,10 +193,10 @@ go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/bereilhp/via"
 uv "tinybird"
-npm "ananajs"
+npm "biribiri"
 npm "corepack"
 npm "grepguard"
-npm "nire"
+npm "muxling"
 npm "novix"
 npm "querygit"
 npm "sandbar"
