@@ -171,6 +171,8 @@ brew "teamookla/speedtest/speedtest", link: false
 cask "codex"
 # Coding agent with Devin Cloud integration
 cask "devin-cli"
+# Local voice dictation
+cask "anomalyco/tap/hex", trusted: true
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Binary releases of VS Code without MS branding/telemetry/licensing
@@ -200,12 +202,4 @@ go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/bereilhp/via"
 uv "tinybird"
-npm "biribiri"
 npm "corepack"
-npm "grepguard"
-npm "muxling"
-npm "novix"
-npm "querygit"
-npm "sandbar"
-npm "sshelf"
-npm "vercel"
