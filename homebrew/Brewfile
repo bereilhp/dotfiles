@@ -51,8 +51,6 @@ brew "eza"
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
 # LLVM's OpenMP runtime library
 brew "libomp"
 # GitHub command-line tool
@@ -93,6 +91,8 @@ brew "mactop"
 brew "minikube"
 # Deep clean and optimize your Mac
 brew "mole"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Feature-rich command-line audio/video downloader
@@ -125,10 +125,10 @@ brew "pnpm"
 brew "portaudio"
 # Python version management
 brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Python interface to Tcl/Tk
 brew "python-tk@3.13"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # File browser
 brew "ranger"
 # SOund eXchange: universal sound sample translator
@@ -198,3 +198,4 @@ go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/bereilhp/via"
 npm "corepack"
+npm "vektor"
